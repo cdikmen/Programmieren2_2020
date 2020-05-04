@@ -18,6 +18,7 @@ public class Game implements ITickableListener, IKeyboardListener {
 	private int screenWidth = 900;
 	private int screenHeight = 700;
 	private GameFrameWork frameWork = new GameFrameWork();
+	private int score = 0;
 
 	/**
 	 * Initiates everything for the game. Multiple ufos and a ship are created.
@@ -75,7 +76,7 @@ public class Game implements ITickableListener, IKeyboardListener {
 		System.out.println(projectiles.size());
 	}
 	
-	
+	//Collision
 	
 	private boolean collisionCheck(Projectile  projectile, Ufo enemy)
     {
@@ -103,6 +104,8 @@ public class Game implements ITickableListener, IKeyboardListener {
         
         return enemyHit;
     }
+	
+	// Deleting Collided objects Projectile & Ufo
 	
     private void removeCollidedObjects() {
         
@@ -146,7 +149,9 @@ public class Game implements ITickableListener, IKeyboardListener {
 					u.setCollided(true);
 					frameWork.removeGameObject(p);
 					frameWork.removeGameObject(u);
-					System.out.println("plonk!");
+					//Score count + 100 for points
+					score = score + 100;
+					System.out.println(score);
 				}
 			}
             p.move();

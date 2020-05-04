@@ -1,0 +1,1049 @@
+klar
+gut gemacht
+Diese Wörter solltest du nicht erkennen:
+WasGeht?
+huhu
+nope
+WTF!!
+#####
+Y/N?
+Bitte gib deinen regex ein:
+^[a-zA-Z]{1,*}\s*[a-z]*$
+Deine Regex Syntax hat einen Fehler:Unclosed counted closure near index 12
+^[a-zA-Z]{1,*}\s*[a-z]*$
+            ^
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Was geht
+Richtig gut
+oh	no
+heute morgen
+alles
+klar
+gut gemacht
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+WasGeht?
+huhu
+nope
+WTF!!
+#####
+Y/N?
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Filtert nach Ausdrücken, die ein Whitespace (Leertaste, Zeilenumbruch, Tab) enthalten. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Was geht
+Richtig gut
+oh	no
+heute morgen
+alles
+klar
+gut gemacht
+Diese Wörter solltest du nicht erkennen:
+WasGeht?
+huhu
+nope
+WTF!!
+#####
+Y/N?
+Bitte gib deinen regex ein:
+^[a-zA-Z]*\s{1,}[a-z]{1,}$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Was geht
+Richtig gut
+oh	no
+heute morgen
+alles
+klar
+gut gemacht
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+WasGeht?
+huhu
+nope
+WTF!!
+#####
+Y/N?
+----------------------------------------------------------------------------
+
+Super gemacht!
+
+-------------------- nächste Aufgabe ----------------------------------
+
+Filtert nach Wörtern, die nur aus Kleinbuchstaben von a - n bestehen. 
+In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+eine
+abcd
+nie
+klmn
+man
+naja
+Diese Wörter solltest du nicht erkennen:
+nur
+nass
+sag
+WTF
+falsch
+Y/N?
+Bitte gib deinen regex ein:
+^[a-n]*\s*[a-n]*$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+eine
+abcd
+nie
+klmn
+man
+naja
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+nur
+nass
+sag
+WTF
+falsch
+Y/N?
+----------------------------------------------------------------------------
+
+Super gemacht!
+
+-------------------- nächste Aufgabe ----------------------------------
+
+Filtert nach Ausdrücken, die mit 1-2 Zahlen bestehen, gefolgt von 1-2 Zahlen, gefolgt von 2-4 Zahlen.
+In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+3.1.2009
+98.13.1123
+23.12.2123
+10.00.9999
+43.2.23
+Diese Wörter solltest du nicht erkennen:
+2.2.2
+332.12.1232
+34.32.41232
+te.st.test
+gut gemacht!
+Bitte gib deinen regex ein:
+^[0-9]{1,2}.[0-9]{1,2}.[0-9]{2,4}$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+3.1.2009
+98.13.1123
+23.12.2123
+10.00.9999
+43.2.23
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+2.2.2
+332.12.1232
+34.32.41232
+te.st.test
+gut gemacht!
+----------------------------------------------------------------------------
+
+Super gemacht!
+
+-------------------- nächste Aufgabe ----------------------------------
+
+Filtert nach Ausdrücken, die mit www. beginnen und mit .de aufhören. Dazwischen dürfen nur Groß- und Kleinbuchstaben sowie Zahlen stehen. 
+In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+www.test.de
+www.huhu.de
+www.WasGeht.de
+www.naklar.de
+www.logo.de
+www.developper4future.de
+Diese Wörter solltest du nicht erkennen:
+www.na-klar.de
+www.test.org
+www,yo,digga
+schauen wir mal
+www.ja oder nein.de
+www.Das.geht.so.nicht.de
+Bitte gib deinen regex ein:
+^[w]{3}.[a-zA-Z]*.de
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+www.test.de
+www.huhu.de
+www.WasGeht.de
+www.naklar.de
+www.logo.de
+www.developper4future.de
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+www.na-klar.de
+www.test.org
+www,yo,digga
+schauen wir mal
+www.ja oder nein.de
+www.Das.geht.so.nicht.de
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Filtert nach Ausdrücken, die mit www. beginnen und mit .de aufhören. Dazwischen dürfen nur Groß- und Kleinbuchstaben sowie Zahlen stehen. 
+In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+www.test.de
+www.huhu.de
+www.WasGeht.de
+www.naklar.de
+www.logo.de
+www.developper4future.de
+Diese Wörter solltest du nicht erkennen:
+www.na-klar.de
+www.test.org
+www,yo,digga
+schauen wir mal
+www.ja oder nein.de
+www.Das.geht.so.nicht.de
+Bitte gib deinen regex ein:
+^[w]{3}.[a-zA-Z0-9]*.de
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+www.test.de
+www.huhu.de
+www.WasGeht.de
+www.naklar.de
+www.logo.de
+www.developper4future.de
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+www.na-klar.de
+www.test.org
+www,yo,digga
+schauen wir mal
+www.ja oder nein.de
+www.Das.geht.so.nicht.de
+----------------------------------------------------------------------------
+
+Super gemacht!
+
+-------------------- nächste Aufgabe ----------------------------------
+
+Du hast das Level Middle absolviert. Herzlichen Glückwunsch!
+
+
+Du befindest dich nun im Level Advanced. Möge die Macht mit dir sein ;)
+
+
+Filtert nach Wörtern, die mit s oder S beginnen, aber nicht mit s aufhören. Diese Wörter dürfen nur aus Buchstaben bestehen und haben ab dem 2. Buchstaben nur kleine Buchstaben. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Sonne
+sonnig
+saß
+sitzen
+Sessel
+singen
+sammeln
+suchen
+sagen
+Sage
+Diese Wörter solltest du nicht erkennen:
+aus
+reißen
+Spliss
+Spross
+huhu
+hu hu
+singe2
+sing2e
+Bitte gib deinen regex ein:
+^[sS]{1}[a-zA-Z]*[^s]$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Sonne
+sonnig
+saß
+sitzen
+Sessel
+singen
+sammeln
+suchen
+sagen
+Sage
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+aus
+reißen
+Spliss
+Spross
+huhu
+hu hu
+singe2
+sing2e
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Filtert nach Wörtern, die mit s oder S beginnen, aber nicht mit s aufhören. Diese Wörter dürfen nur aus Buchstaben bestehen und haben ab dem 2. Buchstaben nur kleine Buchstaben. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Sonne
+sonnig
+saß
+sitzen
+Sessel
+singen
+sammeln
+suchen
+sagen
+Sage
+Diese Wörter solltest du nicht erkennen:
+aus
+reißen
+Spliss
+Spross
+huhu
+hu hu
+singe2
+sing2e
+Bitte gib deinen regex ein:
+^[sS]{1}[a-zA-Z]*[a-zA-Z[^s]]$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Sonne
+sonnig
+saß
+sitzen
+Sessel
+singen
+sammeln
+suchen
+sagen
+Sage
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+aus
+reißen
+Spliss
+Spross
+huhu
+hu hu
+singe2
+sing2e
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Filtert nach Wörtern, die mit s oder S beginnen, aber nicht mit s aufhören. Diese Wörter dürfen nur aus Buchstaben bestehen und haben ab dem 2. Buchstaben nur kleine Buchstaben. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Sonne
+sonnig
+saß
+sitzen
+Sessel
+singen
+sammeln
+suchen
+sagen
+Sage
+Diese Wörter solltest du nicht erkennen:
+aus
+reißen
+Spliss
+Spross
+huhu
+hu hu
+singe2
+sing2e
+Bitte gib deinen regex ein:
+^[sS][a-z|ß]*[^\d][^sS||\d]$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Sonne
+sonnig
+saß
+sitzen
+Sessel
+singen
+sammeln
+suchen
+sagen
+Sage
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+aus
+reißen
+Spliss
+Spross
+huhu
+hu hu
+singe2
+sing2e
+----------------------------------------------------------------------------
+
+Super gemacht!
+
+-------------------- nächste Aufgabe ----------------------------------
+
+Filtert nach Namen. Diese Namen dürfen nur aus Buchstaben bestehen und können Leerzeichen enthalten. Ab dem 2. Buchstaben dürfen nur kleine Buchstaben. Der erste Buchstabe darf kleingeschrieben sein. Es dürfen keine zwei Leerzeichen aufeinander folgen. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Martin Max Mustermann
+Mira van Hagen
+Torsten de Larrin
+Sina Schmidt
+marvin
+Diese Wörter solltest du nicht erkennen:
+St4phi
+Jan-Mirko
+Dennis  Carsten Klein
+Richard_Klein
+Richard.Klein
+Digga!
+Bitte gib deinen regex ein:
+^[a-zA-Z]*\s*[a-zA-Z]*\s*[a-zA-Z]*
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Martin Max Mustermann
+Mira van Hagen
+Torsten de Larrin
+Sina Schmidt
+marvin
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+St4phi
+Jan-Mirko
+Dennis  Carsten Klein
+Richard_Klein
+Richard.Klein
+Digga!
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Filtert nach Namen. Diese Namen dürfen nur aus Buchstaben bestehen und können Leerzeichen enthalten. Ab dem 2. Buchstaben dürfen nur kleine Buchstaben. Der erste Buchstabe darf kleingeschrieben sein. Es dürfen keine zwei Leerzeichen aufeinander folgen. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Martin Max Mustermann
+Mira van Hagen
+Torsten de Larrin
+Sina Schmidt
+marvin
+Diese Wörter solltest du nicht erkennen:
+St4phi
+Jan-Mirko
+Dennis  Carsten Klein
+Richard_Klein
+Richard.Klein
+Digga!
+Bitte gib deinen regex ein:
+^[a-zA-Z]*\s{1}[a-zA-Z]*\s{1}[a-zA-Z]*
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Martin Max Mustermann
+Mira van Hagen
+Torsten de Larrin
+Sina Schmidt
+marvin
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+St4phi
+Jan-Mirko
+Dennis  Carsten Klein
+Richard_Klein
+Richard.Klein
+Digga!
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Filtert nach Namen. Diese Namen dürfen nur aus Buchstaben bestehen und können Leerzeichen enthalten. Ab dem 2. Buchstaben dürfen nur kleine Buchstaben. Der erste Buchstabe darf kleingeschrieben sein. Es dürfen keine zwei Leerzeichen aufeinander folgen. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Martin Max Mustermann
+Mira van Hagen
+Torsten de Larrin
+Sina Schmidt
+marvin
+Diese Wörter solltest du nicht erkennen:
+St4phi
+Jan-Mirko
+Dennis  Carsten Klein
+Richard_Klein
+Richard.Klein
+Digga!
+Bitte gib deinen regex ein:
+^[a-zA-Z]*\s{1}[a-zA-Z]*\s{1}[a-zA-Z]*$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Martin Max Mustermann
+Mira van Hagen
+Torsten de Larrin
+Sina Schmidt
+marvin
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+St4phi
+Jan-Mirko
+Dennis  Carsten Klein
+Richard_Klein
+Richard.Klein
+Digga!
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Filtert nach Namen. Diese Namen dürfen nur aus Buchstaben bestehen und können Leerzeichen enthalten. Ab dem 2. Buchstaben dürfen nur kleine Buchstaben. Der erste Buchstabe darf kleingeschrieben sein. Es dürfen keine zwei Leerzeichen aufeinander folgen. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Martin Max Mustermann
+Mira van Hagen
+Torsten de Larrin
+Sina Schmidt
+marvin
+Diese Wörter solltest du nicht erkennen:
+St4phi
+Jan-Mirko
+Dennis  Carsten Klein
+Richard_Klein
+Richard.Klein
+Digga!
+Bitte gib deinen regex ein:
+^[a-zA-Z]*\s?[a-zA-Z]*\s?[a-zA-Z]*$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Martin Max Mustermann
+Mira van Hagen
+Torsten de Larrin
+Sina Schmidt
+marvin
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+St4phi
+Jan-Mirko
+Dennis  Carsten Klein
+Richard_Klein
+Richard.Klein
+Digga!
+----------------------------------------------------------------------------
+
+Super gemacht!
+
+-------------------- nächste Aufgabe ----------------------------------
+
+Filtert nach Wörtern, die mit a, A, B, b, c, C, d oder D beginnen und mit n aufhören. Diese Wörter dürfen nur aus Buchstaben bestehen und haben ab dem 2. Buchstaben nur kleine Buchstaben.In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Abendessen
+Affen
+decken
+baden
+Chaoten
+Chancen
+denken
+dichten
+Diese Wörter solltest du nicht erkennen:
+barfuß gehen
+Biene
+Bruder
+Abend
+Rachen
+rufen
+Bitte gib deinen regex ein:
+^[a-dA-D]{1}[a-z]*[n]{1}$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Abendessen
+Affen
+decken
+baden
+Chaoten
+Chancen
+denken
+dichten
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+barfuß gehen
+Biene
+Bruder
+Abend
+Rachen
+rufen
+----------------------------------------------------------------------------
+
+Super gemacht!
+
+-------------------- nächste Aufgabe ----------------------------------
+
+Filtert nach Wörtern, die mit a oder A beginnen und ein n im Wort haben. Diese Wörter dürfen nur aus Buchstaben bestehen und haben ab dem 2. Buchstaben nur kleine Buchstaben. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Abendessen
+Affen
+anders
+arrangieren
+Asien
+Arten
+Abend
+Diese Wörter solltest du nicht erkennen:
+Affe
+aber
+Attacke
+Bund
+Art
+Biene
+baden
+suchen
+A1rten
+Abend-Essen
+Bitte gib deinen regex ein:
+^[aA]{1}(\w)*n(\w\d)*$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Abendessen
+Affen
+anders
+arrangieren
+Asien
+Arten
+Abend
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+Affe
+aber
+Attacke
+Bund
+Art
+Biene
+baden
+suchen
+A1rten
+Abend-Essen
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Filtert nach Wörtern, die mit a oder A beginnen und ein n im Wort haben. Diese Wörter dürfen nur aus Buchstaben bestehen und haben ab dem 2. Buchstaben nur kleine Buchstaben. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Abendessen
+Affen
+anders
+arrangieren
+Asien
+Arten
+Abend
+Diese Wörter solltest du nicht erkennen:
+Affe
+aber
+Attacke
+Bund
+Art
+Biene
+baden
+suchen
+A1rten
+Abend-Essen
+Bitte gib deinen regex ein:
+^[aA]{1}(n?(\w)*n?(\w)n?)$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Abendessen
+Affen
+anders
+arrangieren
+Asien
+Arten
+Abend
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+Affe
+aber
+Attacke
+Bund
+Art
+Biene
+baden
+suchen
+A1rten
+Abend-Essen
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Filtert nach Wörtern, die mit a oder A beginnen und ein n im Wort haben. Diese Wörter dürfen nur aus Buchstaben bestehen und haben ab dem 2. Buchstaben nur kleine Buchstaben. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Abendessen
+Affen
+anders
+arrangieren
+Asien
+Arten
+Abend
+Diese Wörter solltest du nicht erkennen:
+Affe
+aber
+Attacke
+Bund
+Art
+Biene
+baden
+suchen
+A1rten
+Abend-Essen
+Bitte gib deinen regex ein:
+^[aA]{1}(n?(\w)*n?(\w)n?)\D$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Abendessen
+Affen
+anders
+arrangieren
+Asien
+Arten
+Abend
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+Affe
+aber
+Attacke
+Bund
+Art
+Biene
+baden
+suchen
+A1rten
+Abend-Essen
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Filtert nach Wörtern, die mit a oder A beginnen und ein n im Wort haben. Diese Wörter dürfen nur aus Buchstaben bestehen und haben ab dem 2. Buchstaben nur kleine Buchstaben. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+Abendessen
+Affen
+anders
+arrangieren
+Asien
+Arten
+Abend
+Diese Wörter solltest du nicht erkennen:
+Affe
+aber
+Attacke
+Bund
+Art
+Biene
+baden
+suchen
+A1rten
+Abend-Essen
+Bitte gib deinen regex ein:
+^[aA]{1}[a-zA-Z]*n[a-zA-Z]*
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+Abendessen
+Affen
+anders
+arrangieren
+Asien
+Arten
+Abend
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+Affe
+aber
+Attacke
+Bund
+Art
+Biene
+baden
+suchen
+A1rten
+Abend-Essen
+----------------------------------------------------------------------------
+
+Super gemacht!
+
+-------------------- nächste Aufgabe ----------------------------------
+
+Stellt euch vor ihr hättet eine riesige Log-Datei eines Spiels. Immer wenn jemand einen neuen Rekord aufstellt, wird dies in der Log-Datei mit einem Zeitstempel (z.B.: 22:34:02) und einer entsprechenden Nachricht eingetragen. Ihr sollt die Zeilen aus der Log-Datei filtern, die so einen Zeitstempel haben, achtet darauf, dass im Zeitstempel auch nur gültige Uhrzeiten stehen können. In so einer Zeile können Zahlen, Buchstaben, Leerzeichen, Doppelpunkte, Satzzeichen auftreten. Ihr sollt die komplette Zeile filtern.In Grün sind die Zeilen aufgeführt, die ihr filtern solltet. In Rot sind Zeilen aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+[23:43:32] Der Spieler stellt einen neuen Rekord mit 192 Punkten auf.
+[00:13:42] 201 ist der neue Rekord.
+[23:59:59] 204 Punkte – was für eine grandiose Leistung.
+Diese Wörter solltest du nicht erkennen:
+Der Spieler ist offline.
+Der Spieler ist online.
+Der Spieler tritt einem Match bei.
+Das Match geht mit 192:87 Punkten in 01:47 Min aus.
+[57:11:99] Dies ist keine richtige Uhrzeit.
+[24:00:00] Dies sollt ihr nicht filtern.
+[00:95:00] Dies sollt ihr nicht filtern.
+Bitte gib deinen regex ein:
+(([0-1][0-9])|([2][0-3])):[0-5][0-9]:[0-5][0-9].*
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+[23:43:32] Der Spieler stellt einen neuen Rekord mit 192 Punkten auf.
+[00:13:42] 201 ist der neue Rekord.
+[23:59:59] 204 Punkte – was für eine grandiose Leistung.
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+Der Spieler ist offline.
+Der Spieler ist online.
+Der Spieler tritt einem Match bei.
+Das Match geht mit 192:87 Punkten in 01:47 Min aus.
+[57:11:99] Dies ist keine richtige Uhrzeit.
+[24:00:00] Dies sollt ihr nicht filtern.
+[00:95:00] Dies sollt ihr nicht filtern.
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Stellt euch vor ihr hättet eine riesige Log-Datei eines Spiels. Immer wenn jemand einen neuen Rekord aufstellt, wird dies in der Log-Datei mit einem Zeitstempel (z.B.: 22:34:02) und einer entsprechenden Nachricht eingetragen. Ihr sollt die Zeilen aus der Log-Datei filtern, die so einen Zeitstempel haben, achtet darauf, dass im Zeitstempel auch nur gültige Uhrzeiten stehen können. In so einer Zeile können Zahlen, Buchstaben, Leerzeichen, Doppelpunkte, Satzzeichen auftreten. Ihr sollt die komplette Zeile filtern.In Grün sind die Zeilen aufgeführt, die ihr filtern solltet. In Rot sind Zeilen aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+[23:43:32] Der Spieler stellt einen neuen Rekord mit 192 Punkten auf.
+[00:13:42] 201 ist der neue Rekord.
+[23:59:59] 204 Punkte – was für eine grandiose Leistung.
+Diese Wörter solltest du nicht erkennen:
+Der Spieler ist offline.
+Der Spieler ist online.
+Der Spieler tritt einem Match bei.
+Das Match geht mit 192:87 Punkten in 01:47 Min aus.
+[57:11:99] Dies ist keine richtige Uhrzeit.
+[24:00:00] Dies sollt ihr nicht filtern.
+[00:95:00] Dies sollt ihr nicht filtern.
+Bitte gib deinen regex ein:
+^.(([0-1][0-9])|([2][0-3])):[0-5][0-9]:[0-5][0-9].*
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+[23:43:32] Der Spieler stellt einen neuen Rekord mit 192 Punkten auf.
+[00:13:42] 201 ist der neue Rekord.
+[23:59:59] 204 Punkte – was für eine grandiose Leistung.
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+Der Spieler ist offline.
+Der Spieler ist online.
+Der Spieler tritt einem Match bei.
+Das Match geht mit 192:87 Punkten in 01:47 Min aus.
+[57:11:99] Dies ist keine richtige Uhrzeit.
+[24:00:00] Dies sollt ihr nicht filtern.
+[00:95:00] Dies sollt ihr nicht filtern.
+----------------------------------------------------------------------------
+
+Super gemacht!
+
+-------------------- nächste Aufgabe ----------------------------------
+
+Schreibt eine Methode boolean emailCheck(String email), dabei sollt ihr prüfen, ob die Email-Adresse ein Mix aus Buchstaben und Zahlen, gefolgt von einem @, danach sind Buchstaben erlaubt, ein Punkt muss folgen und danach müssen 2-4 Buchstaben wieder folgen. Eure emailCheck()-Methode soll prüfen, ob angegebene Email-Adressen diesem Schema folgen. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+stephanieb@gmail.com
+noreply@gmx.net
+tim23@yahoo.de
+coffee2go@marke.de
+grrrrr@keinklopapier.da
+alle@nudelnsind.weg
+hierkönntedeine@email.sein
+Diese Wörter solltest du nicht erkennen:
+was.geht.so?@nicht.v1el
+@gmail.com
+stephi@gmail.
+sonne@istCool?ne
+Chuck.norris@brauchtkeine.email
+Warum-habe-ich keinen@kuchen.hier
+Bitte gib deinen regex ein:
+^[a-zA-Z0-9]{3,}@[a-z]{3,}.[a-z]{2,}$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+stephanieb@gmail.com
+noreply@gmx.net
+tim23@yahoo.de
+coffee2go@marke.de
+grrrrr@keinklopapier.da
+alle@nudelnsind.weg
+hierkönntedeine@email.sein
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+was.geht.so?@nicht.v1el
+@gmail.com
+stephi@gmail.
+sonne@istCool?ne
+Chuck.norris@brauchtkeine.email
+Warum-habe-ich keinen@kuchen.hier
+Noch nicht ganz. Versuch es doch noch mal :)
+(a) Abbrechen
+(t) Tipp
+(b) beenden und sichern
+( ) nächster Versuch :)
+
+
+---------------------- nächster Versuch --------------------------------
+
+Schreibt eine Methode boolean emailCheck(String email), dabei sollt ihr prüfen, ob die Email-Adresse ein Mix aus Buchstaben und Zahlen, gefolgt von einem @, danach sind Buchstaben erlaubt, ein Punkt muss folgen und danach müssen 2-4 Buchstaben wieder folgen. Eure emailCheck()-Methode soll prüfen, ob angegebene Email-Adressen diesem Schema folgen. In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+stephanieb@gmail.com
+noreply@gmx.net
+tim23@yahoo.de
+coffee2go@marke.de
+grrrrr@keinklopapier.da
+alle@nudelnsind.weg
+hierkönntedeine@email.sein
+Diese Wörter solltest du nicht erkennen:
+was.geht.so?@nicht.v1el
+@gmail.com
+stephi@gmail.
+sonne@istCool?ne
+Chuck.norris@brauchtkeine.email
+Warum-habe-ich keinen@kuchen.hier
+Bitte gib deinen regex ein:
+^[a-zA-Z0-9ö]{3,}@[a-z]{3,}.[a-z]{2,}$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+stephanieb@gmail.com
+noreply@gmx.net
+tim23@yahoo.de
+coffee2go@marke.de
+grrrrr@keinklopapier.da
+alle@nudelnsind.weg
+hierkönntedeine@email.sein
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+was.geht.so?@nicht.v1el
+@gmail.com
+stephi@gmail.
+sonne@istCool?ne
+Chuck.norris@brauchtkeine.email
+Warum-habe-ich keinen@kuchen.hier
+----------------------------------------------------------------------------
+
+Super gemacht!
+
+-------------------- nächste Aufgabe ----------------------------------
+
+Filtert nach Ausdrücken, die mit 1-2 Zahlen bestehen, gefolgt von 1-2 Zahlen, gefolgt von 2 oder 4 Zahlen.In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+1.1.00
+23.12.1999
+31.01.10
+14.10.1930
+5.7.59
+99.99.99
+Diese Wörter solltest du nicht erkennen:
+199.01.99
+01.01.9
+01.01.199
+z9.07.69
+23.132.81
+Bitte gib deinen regex ein:
+^[0-9]{1,2}.[0-9]{1,2}.([0-9]{2}|[0-9]{4})$
+
+Alle Wörter sollten grün sein. Alles was nicht erkannt wird, wird rot dargestellt.
+1.1.00
+23.12.1999
+31.01.10
+14.10.1930
+5.7.59
+99.99.99
+
+Alle Wörter sollten blau sein. Alles was erkannt wird, wird pink dargestellt.
+199.01.99
+01.01.9
+01.01.199
+z9.07.69
+23.132.81
+----------------------------------------------------------------------------
+
+Super gemacht!
+
+-------------------- nächste Aufgabe ----------------------------------
+
+Du hast das Level Advanced absolviert. Herzlichen Glückwunsch!
+
+
+Du befindest dich nun im Level Chuck Norris. Möge die Macht mit dir sein ;)
+
+
+Filtert, ob der Ausdruck ein gültiger Identifier(Bezeichner/Variablenname) ist. Gültig ist der Name, wenn er mit einem Buchstaben, $ oder _ beginnt. Die folgenden Zeichen können Buchstaben, Zahlen, _ und $ sein.In Grün sind die Wörter aufgeführt, die ihr filtern solltet. In Rot sind Wörter aufgeführt, die ihr nicht filtern solltet.
+Diese Wörter solltest du erkennen:
+$test4
+Test3
+test2
+_test1
+test
+NUM_RECTS
+RECT_1
+Diese Wörter solltest du nicht erkennen:
+1_RECT
+rect 1
+test-2
+test#2
+#test
+test!
+Bitte gib deinen regex ein:
+java.io.FileNotFoundException: C:\Users\lavablade\HAW-GIT\Programmieren_2020\AufgabenRegexCem\test\excerciseSaveState.bin (Das System kann den angegebenen Pfad nicht finden)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:234)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at regextool.SaveStatus.writeStatus(SaveStatus.java:22)
+	at regextool.ExerciseController.exerciseLevel(ExerciseController.java:64)
+	at regextool.ExerciseController.loop(ExerciseController.java:34)
+	at regextool.ExerciseController.init(ExerciseController.java:27)
+	at regextool.RegexMain.main(RegexMain.java:9)
+java.io.FileNotFoundException: C:\Users\lavablade\HAW-GIT\Programmieren_2020\AufgabenRegexCem\test\feedback.txt (Das System kann den angegebenen Pfad nicht finden)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:234)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at java.base/java.io.FileWriter.<init>(FileWriter.java:96)
+	at regextool.SaveStatus.writeFeedback(SaveStatus.java:103)
+	at regextool.ExerciseController.exerciseLevel(ExerciseController.java:65)
+	at regextool.ExerciseController.loop(ExerciseController.java:34)
+	at regextool.ExerciseController.init(ExerciseController.java:27)
+	at regextool.RegexMain.main(RegexMain.java:9)

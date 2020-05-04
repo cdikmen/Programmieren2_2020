@@ -7,7 +7,7 @@ public class EmailMain {
 
 	public static void main(String[] args) {
 		
-		Email [] emails = new Email[20];
+		Email [] emails = new Email[28];
 		emails[0] = new Email("Programmieren 2 Vorlesung", "Hallo allerseits,\ndie Vorlesung morgen fällt leider aus.\nViele Grüße\nStephi");
 		emails[1] = new Email("Witze", "Huhu,\nich bin gerade auf der Suche nach coolen Chuck Norris Witzen. Du kennst doch so viele. Kannst du mir mal welche schreiben?\nDas wäre mega cool :)\nLG, Rudolf");
 		emails[2] = new Email("SRA Treffen", "Guten Tag liebe Kollegen und Kollginnen,\nheute findet der nächste Studienreformausschuss in E45 statt.\nMit freundlichen Grüßen\nMarkus Schubert");
@@ -26,9 +26,41 @@ public class EmailMain {
 		emails[15] = new Email("Badminton", "Hey Tom,\nwir Häuser waren am Sonntag Badminton spielen, das war ja so mega. Nächstes Mal musst du mitkommen. Wie geht es eigentlich deiner Kleinen?\nViele Grüße\nRudi");
 		emails[16] = new Email("Treffen", "Aloha,\nkommste nachher mit zum Slam? Wollen uns um 19 uhr treffen und dann was Essen gehen. Es geht dann um 20:30 Uhr los.\nCu Peter");
 		emails[17] = new Email("Bier brauen", "Hey Jan,\nSarah will mal Bier brauen, du musst dann wohl unter übel vorbei kommen zum kosten.\nBis denne\nSteve");
-		emails[18] = new Email("Nachbarschaftshilfe", "Hey Laura,\nwollen 00:34:45wir mal Werbung für unsere Nachbarschaftshilfe machen? Können ja mal nachher drüber quatschen. Wann treffen wir uns eigentlich?");
+		emails[18] = new Email("Nachbarschaftshilfe", "Hey Laura,\nwollen 00:34:45 wir mal Werbung für unsere Nachbarschaftshilfe machen? Können ja mal nachher drüber quatschen. Wann treffen wir uns eigentlich?");
 		emails[19] = new Email("Bla", "Test, bla, test, huhu, was geht, was geht Digga?");
-
+		emails[20] = new Email("Bla2", "sagte");
+		emails[21] = new Email("MyName", "Cemsn hiho test blub");
+		emails[22] = new Email("Uhrzeit", "23:59:00");
+		emails[23] = new Email("Uhrzeit2", "00:23:00");
+		emails[24] = new Email("Uhrzeit3", "00:23:23");
+		emails[25] = new Email("Uhrzeit4", "00:23:81");
+		emails[26] = new Email("Uhrzeit5", "13:37:37");
+		emails[27] = new Email("Uhrzeit6", "11:23:06");
+		
+		
+		//A ... d
+		// String regex = "(Haus)|(Häuser)";
+		// String regex = "\\s[Aa][a-z]*[d]\\s";
+		// String regex = "(\\s|^)[Aa]\\w*[d](\\s|[.,=!:;])";
+		// String regex = "(^|\\s)[Ss][a-zA-Z]*[e](\\s|[.,?!:;]|$)";
+		String regex = "(([0-1][0-9])|([2][0-3])):[0-5][0-9]:[0-5][0-9].*";
+		
+		// Aufgabe Name filtern
+		// String regex = "Cemsn";
+		// String regex = "(^|\\s)[Cc][a-zA-Z]*[n](\\s|[.,?!:;]|$)";
+		
+		Pattern pattern = Pattern.compile(regex);
+		for(Email email : emails) {
+			Matcher matcher = pattern.matcher(email.getMessage());
+			if(matcher.find()) {
+				System.out.println(email.getMessage().substring(matcher.start(), matcher.end()) +
+						"\n" + email.getMessage());
+			}
+		}
+		
+		
+		
+		/*
 		String regex = "(Haus)|(Häuser)";
 		Pattern pattern = Pattern.compile(regex);
 		for(Email email : emails) {
@@ -37,7 +69,7 @@ public class EmailMain {
 				System.out.println(email.getMessage());
 			}
 		}
-		
+		*/
 		
 	}
 	
